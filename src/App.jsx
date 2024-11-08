@@ -1,15 +1,15 @@
-import Card from "./components/card";
-function App() {
-  
 
+import Formulario from './components/Formulario';
+
+
+function App() {
   return (
     <div className="App">
       <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+      
+      <Formulario />
     </div>
   );
-
 }
 
-export default App
+export default App;
